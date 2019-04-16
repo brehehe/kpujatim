@@ -1,0 +1,61 @@
+/**
+for further help on this web page : 
+http://themedemos.dottoro.com/features/menu/horizontal-submenu/
+**/
+/**  menutop  **/
+.navbarup{
+    background: #EA640E; /* Old browsers */
+}
+.menutop {
+    border-color: #EA640E;
+}
+.menucontainer{
+    position:relative
+}
+.menutop{
+    border-top-width:1px;
+    border-top-style:solid;
+    font-family: 'Lato';
+    font-size:14px;
+    text-transform:uppercase;
+}
+.menutop li{
+    float:left;
+    position:relative;
+}
+.menutop a{
+    position:relative;
+    display:block;
+    padding: 10px;
+    border-top-width:4px;
+    border-top-style:solid; 
+    border-color: #EA640E;
+    margin-top:-1px;
+    white-space:nowrap;
+    color: #fff;
+}
+
+.menutop li {
+    position: static !Important;
+}
+
+.menutop .sub-menu  {
+    left: 0 !Important;
+    right: 0 !Important;
+}
+
+.menutop .sub-menu > li {
+    float: left !Important;
+}
+
+.menutop .label_holder {
+    width: auto !Important;
+}
+
+/* add vertical separator between submenu items */
+.menutop .sub-menu > li {
+    border-left: 1px solid #4f4d49;
+}
+.menutop .sub-menu > li:first-child {
+    border-left: 0;
+}

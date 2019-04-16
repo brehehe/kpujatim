@@ -1,0 +1,316 @@
+/**
+Source Code : https://github.com/jellekralt/Responsive-Tabs
+**/
+/* Tabs container */
+
+/** The Frame of tabs .. **/
+.tabsframe{
+    background: transparent;
+    padding-top: 10px;
+    border-top: 2px solid #FF7200;
+}
+.tabsframe h2{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    color: #616161;
+    font-weight: bold;
+}
+
+.tabber-bg{
+    font-size: 12px;
+}
+.tabber-bg a:hover{
+    text-decoration: underline;
+}
+.tabber-bg td, .tabber-bg table, .tabber-bg th{
+    border: 0;
+}
+.tabber-bg .awalan td{
+    border-bottom: 1px solid #D5D5D5;
+}
+/**
+The Button For More
+**/
+#horizontalTabsNewsOne{
+    padding-right: 15px;
+}
+#horizontalTabsNewsTwo{
+    padding-left: 15px;
+    width: 495px;
+}
+#horizontalTabsNewsOne .ButtonRight, #horizontalTabsNewsTwo .ButtonRight{
+    /** background: #FF7200; **/
+    padding: 3px 5px 3px 5px;
+    font-family: 'Lato',  'Open Sans',  Arial,  sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    color: #FF7200;
+    font-weight: bold;
+}
+#horizontalTabsNewsOne .ButtonRight{
+    right: 15px;
+}
+#horizontalTabsNewsTwo .ButtonRight{
+    right: 0px;
+}
+#horizontalTabsNewsOne .colom105kiri, #horizontalTabsNewsTwo .colom105kiri{
+    float: left;
+    width: 105px;
+}
+#horizontalTabsNewsOne .colom105kanan, #horizontalTabsNewsTwo .colom105kanan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: right;
+    width: 80px;
+    border-left: 1px solid #DDD;
+    color: #616161;
+    font-size: 11px;
+    font-family: 'Lato',  'Open Sans',  Arial,  sans-serif;
+    height: 30px;
+}
+#horizontalTabsNewsOne .colomtengah, #horizontalTabsNewsTwo .colomtengah{
+    float: left;
+    width: 280px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.NewsInTabsEach{
+    height: 60px;
+    overflow-y: hidden;
+}
+#horizontalTabsNewsOne .NewsInTabs, #horizontalTabsNewsTwo .NewsInTabs{
+    padding: 10px 5px 0 0;
+}
+#horizontalTabsNewsOne .NewsInTabsEach, #horizontalTabsNewsTwo .NewsInTabsEach{
+    padding: 5px 0;
+}
+#horizontalTabsNewsOne .NewsInTabsEach img, #horizontalTabsNewsTwo .NewsInTabsEach img{
+    height: auto;
+}
+#horizontalTabsNewsOne .NewsInTabsEach a, #horizontalTabsNewsTwo .NewsInTabsEach a{
+    font-size: 12px;
+    font-family: 'Lato',  'Open Sans',  Arial,  sans-serif;
+}
+#horizontalTabsNewsOne .NewsInTabsEach a:hover, #horizontalTabsNewsTwo .NewsInTabsEach a:hover{
+    text-decoration: underline;
+}
+/**
+    The Main R Tabs
+**/
+.r-tabs{
+    position: relative;
+    width: 100%
+}
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+    position: relative;
+    /**
+    background-color: #FF7200;
+    **/
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-default{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    margin: 0;
+}
+.r-tabs .r-tabs-nav .r-tabs-state-default-News{
+    margin-right: 0;
+    margin-left: 0;
+    background: #F6F6F6; /* Old browsers */
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+.r-tabs .r-tabs-nav .r-tabs-state-default-border{
+    /** border-left: 1px solid #FF7200; **/
+    /** border-left: 1px solid #616161; **/
+    border-left: 1px solid #DDD;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+/* Tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-anchor, .r-tabs .r-tabs-nav .r-tabs-anchor-News {
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 13px;
+    /** color: #FF7200; **/
+    color: #616161;
+    margin: 0;
+}
+/** Khusus untuk mempengaruhi jika tidak sesuai dengan button yang ada di kanan **/
+.r-tabs .r-tabs-nav .r-tabs-anchor-News{
+    width: 170px;
+}
+/* Disabled tab */
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+    opacity: 0.5;
+}
+
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor, .r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor-News {
+    /** border-top: 1px solid #FF7200; no border top **/
+    color: #FFFFFF;
+    text-shadow: none;
+    /**
+    background-color: #FF7200;
+    background: #ef8d1a;
+    background: -moz-linear-gradient(top, #FF7200 0%, #ED8216 100%);
+    **/
+    background: #616161;
+    background: -moz-linear-gradient(top, #616161 0%, #959595 100%);
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Tab panel */
+.r-tabs .r-tabs-panel {
+    /**
+    background-color: white;
+    border-bottom: 4px solid white;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    **/
+}
+
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor, .r-tabs .r-tabs-accordion-title .r-tabs-anchor-News {
+    display: block;
+    padding: 10px;
+    background-color: #FF7200;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor, .r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor-News {
+    background-color: #FF7200;
+    color: #FFF;
+    text-shadow: none;
+}
+
+/* Disabled accordion button */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+    opacity: 0.5;
+}
+
+/* Buttons */
+button {
+    display:inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    line-height: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    vertical-align: middle;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #FF7200;
+    box-shadow: 0px 3px 0px 0px #00ab94;
+
+    cursor: pointer;
+}
+
+/* Info bar */
+.info {
+    display:inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    line-height: 100%;
+
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 14px;
+    color: #FF7200;
+    border: 2px solid #00ab94;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/** responsive Code for Tabs **/
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0 0 0 0px;
+    /** border-bottom: 1px solid #FF7200; **/
+    /** border-bottom: 1px solid #616161; **/
+    border-bottom: 1px solid #DDD;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 0px; /** this inner padding **/
+    display: none;
+    height: 238px;
+    overflow: hidden;
+    border-bottom: 1px solid #DDD;
+    position: relative;
+}
+.r-tabs .r-tabs-panel-News{
+    padding: 0px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel .r-tabs-state-active, .r-tabs .r-tabs-panel-News .r-tabs-state-active {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.tdtabelevent{
+    font-size: 11px;
+    width: 65px;
+}
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+    #horizontalTabsNewsOne, #horizontalTabsNewsTwo{
+        width: auto;
+    }
+    #horizontalTabsNewsTwo{
+        padding: 15px 0 0 0;
+        padding-right: 15px;
+    }
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+}

@@ -1,0 +1,18 @@
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} 
+body {
+    top: 0px !important; 
+}
+div.goog-te-gadget {
+  color: transparent !important;
+}
+#google_translate_element {
+    color: transparent;
+}
+#google_translate_element a {
+    display: none;
+}
+select.google_translate_element {
+    color: black;
+}

@@ -1,0 +1,259 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2017, 8:45:51 AM
+    Author     : Lenovo
+*/
+#horizontalTabsNewsOne .colom105kiri, #horizontalTabsNewsTwo .colom105kiri {
+    width: 60px;
+}
+.sd-social-icon .sd-content ul li.share-google-plus-1 a::before,
+.sd-social-text .sd-content ul li.share-google-plus-1 a::before,
+.sd-content ul li.share-google-plus-1 div.option.option-smart-off a::before,
+.sd-social-icon-text .sd-content li.share-google-plus-1 a::before {
+    content: '\f213';
+}
+.sd-social-icon .sd-content ul li.share-press-this a::before,
+.sd-social-text .sd-content ul li.share-press-this a::before,
+.sd-content ul li.share-press-this div.option.option-smart-off a::before,
+.sd-social-icon-text .sd-content li.share-press-this a::before {
+    content: '\f413';
+}
+#rev_slider_1_1_wrapper {
+    z-index: 1;
+}
+.tombol-pembesar{
+    margin-top: 10px;
+    float: left;
+    padding-right: 10px;
+    margin-left: 68px;
+}
+.tombol-pembesar .fa{
+    cursor: pointer;
+    background: #FF7B0D;
+    padding: 5px;
+    border-radius: 15px;
+    color: #FFF;
+}
+.pencarian {
+    margin-left: 10px;
+}
+body{
+    background-color: #D3D3D3;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#wrapper{
+    width: 1055px;
+    margin: 0 auto;
+    background: #FFF;
+    padding-bottom: 20px;
+}
+.footerblack, .footerblack a, .footerblack p{
+    background: #333;
+    color: #FFF;
+}
+.links-kpu {
+    border: none;
+}
+.links-kpu ul li a,  #footer .links-kpu ul li a {
+    color: #FFF;
+    font-size: 12px;
+}
+#footer {
+    padding-bottom: 0px;
+}
+#header{
+    /* width: 1055px; */
+}
+.container-header-center, header .container-header-center{
+    background-color: #ff7200;
+    height: 150px;
+}
+.spancalendar{  
+    margin: 15px;
+    color: white;
+    float: left;
+}
+.fa-rss{
+    color: #FFF;
+}
+.header-kanan-social {
+    float: right;
+    margin: 12px;
+    padding: 0;
+}
+.header-tengah {
+    /**margin: 20px 0 0 100px;**/
+    margin: 20px 0 0 280px;
+}
+.agenda-kegiatan h2, .kolom3-left h2, .kolom3-left h2, 
+.kolom3-center h2, .kolom3-center h2, 
+.kolom3-right h2, .gallery-foto-jatim h2, .gallery-video-jatim h2, .gallery-video-jatim h2 span
+,h3.widget-title,
+.pagesidebar .widget h3
+{
+    padding: 10px 0;
+    /*background: #333;
+    border-radius: 5px;*/
+    color: #EA640E;
+    font-size: 17px;
+}
+.pagesidebar .widget h3{
+    width: 300px;
+    padding: 0px 10px;
+}
+table, .tabber-bg a, .kolom3-left ul li a, .kolom3-center ul li a, .kolom3-right ul li a{
+    color: #000;
+    background: none;
+    font-family: "Arial",Verdana !important;
+    text-transform: none;
+}
+#content .peringatan-up, #content .peringatan-up .container, .peringatan-up, .peringatan-up .container, .peringatan-up .container p{
+    background: #333;
+    color: #FFF;
+}
+.remodal span{
+    padding: 2px 4px;
+    background: #f4f4f4;
+    font-weight: bold;
+    border: 1px solid #DDD;
+    color: #000;
+}
+a.share-whatsapp.sd-button.share-icon{
+    display: inline-block!important;
+}
+.sd-social-official .sd-content li.share-whatsapp .whatsapp_button{
+    display: inline-block!important;
+}
+a.share-whatsapp.sd-button.no-icon{
+    display: inline-block!important;
+}
+.kolom3-right {
+    height: 250px;
+}
+.twPc-div {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    height: 130px;
+    max-width: 340px; 
+    /* orginal twitter width: 290px; */
+}
+.twPc-bg {
+    background-image: url("https://pbs.twimg.com/profile_banners/714645219522678784/1462496337/1500x500");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 95px;
+    width: 100%;
+}
+.twPc-block {
+    display: block !important;
+}
+.twPc-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+}
+.twPc-avatarLink {
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block !important;
+    float: left;
+    margin: -30px 5px 0 8px;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+}
+.twPc-avatarImg {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+}
+.twPc-divUser {
+    margin: 5px 0 0;
+}
+.twPc-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.twPc-divName a {
+    color: inherit !important;
+}
+.twPc-divStats {
+    margin-left: 11px;
+    padding: 10px 0;
+}
+.twPc-Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    table-layout: auto;
+}
+ul.twPc-Arrange {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.twPc-ArrangeSizeFit {
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+.twPc-ArrangeSizeFit a:hover {
+    text-decoration: none;
+}
+.twPc-StatValue {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+}
+.twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+}
+/**
+Simple Slider
+**/
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-radius: 0px;
+}
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    text-align: center;
+    line-height: 300px;
+}
