@@ -1,0 +1,509 @@
+
+/**  Desktop  **/
+@media only screen and (min-width:769px) and (max-width:1152px) {
+    .breakingnews{
+        display: none;
+    }
+    .container{
+        width:auto;
+        margin:0 25px
+    }
+    .menutop a{
+        padding:20px 25px 23px 25px
+    }
+    .search_form .outerwrapp{
+        margin-right:75px
+    }
+    .search_form .submit{
+        width:70px;
+        padding:0
+    }
+    .portfolio_slider li {
+        margin: 10px 0;
+        width: 25%;
+    }
+    .share .share_social li{
+        margin:0 0 0 15px
+    }
+    .share_social li{
+        margin:0 15px 0 0
+    }
+}
+
+/**  Tablet  **/
+@media only screen and (min-width:481px) and (max-width:768px) {
+    #google_translate_element{
+        float: none;
+        text-align: center;
+    }
+    .breakingnews{
+        display: none;
+    }
+    .container{
+        width:auto;
+        margin:0 15px
+    }
+    #header .logo, #header .social, #header .callnr{
+        float: none;
+        margin:15px 0;
+        text-align:center
+    }
+    .padding-samping-logo {
+        padding: 0;
+    }
+    #header .callnr{
+        margin-top: 5px;
+        line-height: 40px;
+    }
+    #header .logo{
+        display:block
+    }
+    .callnr{
+        padding-bottom: 10px;
+    }
+    .callnr span{
+        display:block;
+        background-image:none;
+        padding:0;
+        background:transparent;
+        color:#FFFFFF;
+    }
+    .callnr span:before{
+        display:none
+    }
+    #header .social li{
+        margin:0 5px
+    }
+    .menucontainer{
+        margin-bottom:25px;
+    }
+    .menucontainer .menutop{
+        display:none;
+    }
+    .menucontainer .menuicon{
+        display:block;
+    }
+    .portfolio_block h4, .testimonials_block h4{
+        text-align:left;
+        padding-left:0
+    }
+    .mainSlider .flex-direction-nav{
+        display:none
+    }
+    .ourservices_block .column3, .posts_contact_block .column2, #footer .columnwrapp .column4, .services_section .column2, .sidebar_right .pagesection, .sidebar_left .pagesection, .sidebar_right .pagesidebar, .sidebar_left .pagesidebar{
+        width:auto;
+        float:none
+    }
+    .contactinfo_form .column2, .portfolio_section .column4{
+        width:50%;
+        float:left
+    }
+    .meta .label_date, .meta .label_auth, .meta .label_category{
+        margin-left:7px
+    }
+    .share, .share .share_social{
+        text-align:center
+    }
+    .share .label_share{
+        float:none;
+        display:block;
+    }
+    .share .share_social{
+        margin-right:0;
+    }
+    .share .share_social li, .share_social li{
+        margin:0;
+        float:none
+    }
+    .menupage{
+        border:0 none;
+        text-align:center
+    }
+    .menupage li{
+        float:none;
+    }
+    .menupage a{
+        display:inline;
+        padding:0;
+        border:0 none
+    }
+    .menupage li.current-menu-item a{
+        border:0 none
+    }
+    .menupage li.current-menu-item a:before{
+        display:none
+    }
+    .contact_page{
+        margin-bottom:50px;
+    }
+    input#author, input#email, input#url, textarea#comment{
+        width:96%
+    }
+    .portfolio_slider li {
+        margin: 10px 0;
+        width: 50%;
+    }
+    .copyright_block{
+        text-align:center
+    }
+    .copyright_block .menufooter{
+        float:none;
+        margin-bottom:10px
+    }
+    .menufooter li{
+        border:0 none;
+        float:none;
+        margin:0 5px;
+        padding:0;
+        display:inline
+    }
+}
+
+/**  Mobile  **/
+@media only screen and (max-width:480px) {
+    .padding-samping-logo {
+        padding: 0;
+    }
+    #google_translate_element{
+        float: none;
+        text-align: center;
+    }
+    .breakingnews{
+        display: none;
+    }
+    .container{
+        width:auto;
+        margin:0 15px
+    }
+    #header .logo, #header .social, #header .callnr{
+        float:none;
+        margin:15px 0;
+        text-align:center
+    }
+    #header .callnr{
+        margin-top: 5px;
+        line-height: 40px;
+    }
+    #header .logo{
+        display:block
+    }
+    .callnr{
+        padding-bottom: 10px;
+    }
+    .callnr span{
+        display:block;
+        background-image:none;
+        padding:0;
+        background:transparent;
+        color:#FFFFFF
+    }
+    .callnr span:before{
+        display:none
+    }
+    #header .social li{
+        margin:0 5px
+    }
+    .menucontainer{
+        margin-bottom:25px;
+    }
+    .menucontainer .menutop{
+        display:none;
+    }
+    .menucontainer .menuicon{
+        display:block;
+    }
+    .portfolio_block h4, .testimonials_block h4{
+        font-size:15px;
+        text-align:left;
+        padding-left:0
+    }
+    .mainSlider{
+        display:none
+    }
+    .ourservices_block .column3, .posts_contact_block .column2, #footer .columnwrapp .column4, .services_section .column2, .portfolio_section .column4, .sidebar_right .pagesection, .sidebar_left .pagesection, .sidebar_right .pagesidebar, .sidebar_left .pagesidebar, .contactinfo_form .column2, .columnwrapp .column1, .columnwrapp .column2, .columnwrapp .column3, .columnwrapp .column4, .columnwrapp .column5, .columnwrapp .column6, .columnwrapp .column7, .columnwrapp .column8, .columnwrapp .column9, .columnwrapp .column10, .columnwrapp .column11, .columnwrapp .column12, .columnwrapp .column13, .columnwrapp .column14, .columnwrapp .column15, .columnwrapp .column16{
+        width:auto;
+        float:none
+    }
+    .meta, article .meta, .singlepost .meta{
+        padding:5px 0
+    }
+    .meta .label_date, .meta .label_auth, .meta .label_category{
+        padding-top:3px;
+        padding-bottom:3px;
+        display:block;
+        margin-left:0
+    }
+    .share, .share .share_social{
+        text-align:center
+    }
+    .share .label_share{
+        float:none;
+        display:block;
+    }
+    .share .share_social{
+        margin-right:0;
+    }
+    .share .share_social li, .share_social li{
+        margin:0;
+        float:none
+    }
+    .menupage{
+        border:0 none;
+        text-align:center
+    }
+    .menupage li{
+        float:none;
+    }
+    .menupage a{
+        display:inline;
+        padding:0;
+        border:0 none
+    }
+    .menupage li.current-menu-item a{
+        border:0 none
+    }
+    .menupage li.current-menu-item a:before{
+        display:none
+    }
+    .contact_page{
+        margin-bottom:50px;
+    }
+    input#author, input#email, input#url, textarea#comment{
+        width:94%
+    }
+    .pagination{
+        font-size:14px;
+        line-height:32px;
+        margin-bottom:55px;
+    }
+    .pagination a{
+        display:block;
+        width:32px;
+        height:32px;
+        text-align:center;
+        float:left;
+        margin:0 1px;
+    }
+    .pagination a.prev_pag, .pagination a.prev_pag:hover, .pagination a.next_pag, .pagination a.next_pag:hover{
+        background-color:transparent;
+        width:16px;
+        background-repeat:no-repeat;
+    }
+    .pagination a.prev_pag{
+        background-position:0 -6px;
+        margin:0 10px 0 0
+    }
+    .pagination a.prev_pag.disabled{
+        background-position:0 -50px;
+    }
+    .portfolio_slider li {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .pagination a.next_pag{
+        background-position:-16px -6px;
+        margin:0 0 0 10px
+    }
+    .pagination a.next_pag.disabled{
+        background-position:-16px -50px;
+    }
+    .copyright_block{
+        text-align:center
+    }
+    .copyright_block .menufooter{
+        float:none;
+        margin-bottom:10px
+    }
+    .menufooter li{
+        border:0 none;
+        float:none;
+        margin:0 5px;
+        padding:0;
+        display:inline
+    }
+}
+
+.ubermenu .ubermenu-item-layout-icon_left > .ubermenu-icon{
+    font-size: 18px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    header .container-header-center{
+        background: #FF7B0D;
+    }
+    /* Styles */
+    .columnwrapp .column60{
+        width: 100%;
+    }
+    .columnwrapp .column20,
+    .columnwrapp .column25,
+    .columnwrapp .column80,
+    .columnwrapp .column85,
+    .columnwrapp .column50,
+    .columnwrapp .column55,
+    .columnwrapp .column30,
+    .columnwrapp .column60,
+    .columnwrapp .column65,
+    .columnwrapp .column70,
+    .columnwrapp .column75,
+    .columnwrapp .column40,
+    .columnwrapp .column45
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .gutter-left{
+        margin:0;
+    }
+    /**
+        Tidak Menampilkan Selengkapnya,
+        merapikan kolom tengah dan kolom kanan hide.
+    **/
+    #horizontalTabsNewsOne .ButtonRight,
+    #horizontalTabsNewsTwo .ButtonRight{
+        display: none;
+    }
+    #horizontalTabsNewsOne .colomtengah, #horizontalTabsNewsTwo .colomtengah {
+        float: left;
+        width: 150px;
+        padding-left: 5px;
+    }
+    #horizontalTabsNewsOne .colom105kanan, #horizontalTabsNewsTwo .colom105kanan{
+        display: none;
+    }
+    .img-page-gallery-home ul li:first-child, .img-page-gallery-home ul li{
+        padding: 15px;
+        border: 0;
+    }
+    .img-page-dct-dps ul li, .img-page-dct-dps ul li:first-child{
+        padding: 15px;
+        border: 0;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    header .container-header-center{
+        background: #FF7B0D;
+    }
+    /* Styles */
+    .columnwrapp .column60{
+        width: 100%;
+    }
+    .columnwrapp .column20,
+    .columnwrapp .column25,
+    .columnwrapp .column80,
+    .columnwrapp .column85,
+    .columnwrapp .column50,
+    .columnwrapp .column55,
+    .columnwrapp .column30,
+    .columnwrapp .column60,
+    .columnwrapp .column65,
+    .columnwrapp .column70,
+    .columnwrapp .column75,
+    .columnwrapp .column40,
+    .columnwrapp .column45
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .gutter-left{
+        margin:0;
+    }
+
+    .bahasaalert {
+        position: absolute;
+        right: 30px;
+        top: 0px;
+    }
+    .pencarian {
+        position: absolute;
+        right: 56px;
+        top: 50px;
+    }
+
+    /**
+        Tidak Menampilkan Selengkapnya,
+        merapikan kolom tengah dan kolom kanan hide.
+    **/
+    #horizontalTabsNewsOne .ButtonRight,
+    #horizontalTabsNewsTwo .ButtonRight{
+        display: none;
+    }
+    #horizontalTabsNewsOne .colomtengah, #horizontalTabsNewsTwo .colomtengah {
+        float: left;
+        width: 150px;
+        padding-left: 5px;
+    }
+    #horizontalTabsNewsOne .colom105kanan, #horizontalTabsNewsTwo .colom105kanan{
+        display: none;
+    }
+    .img-page-gallery-home ul li:first-child, .img-page-gallery-home ul li{
+        padding: 15px;
+        border: 0;
+    }
+    .img-page-dct-dps ul li, .img-page-dct-dps ul li:first-child{
+        padding: 15px;
+        border: 0;
+    }
+    #header .callnr {
+        margin-top: 100px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (device-width : 768px){
+    /* Styles */
+    .padding-samping-logo {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    #header .callnr {
+        margin-top: 150px;
+    }
+    .img-page-gallery-home ul li{
+        float: left;
+    }
+}
+@media only screen 
+and (min-device-width : 769px) 
+and (max-device-width : 1024px) {
+    .img-page-gallery-home ul li{
+        float: left;
+    }
+    .columnwrapp .column60{
+        width: 100%;
+    }
+    .columnwrapp .column20,
+    .columnwrapp .column25,
+    .columnwrapp .column80,
+    .columnwrapp .column85,
+    .columnwrapp .column50,
+    .columnwrapp .column55,
+    .columnwrapp .column30,
+    .columnwrapp .column60,
+    .columnwrapp .column65,
+    .columnwrapp .column70,
+    .columnwrapp .column75,
+    .columnwrapp .column40,
+    .columnwrapp .column45
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .gutter-left{
+        margin:0;
+    }
+}

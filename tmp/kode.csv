@@ -1,0 +1,27 @@
+"tipe (text;section;upload;color;category,textarea)",judul,kode_unik,text-bantuan
+section,Background untuk Desktop Belakang Website,,
+upload,Upload Background untuk Desktop Belakang Website,upload_bgwebsite,ukuran 1366xterserah dengan gradasi #DDDDDD
+section,Background dibelakang Logo (Gelapan),,
+upload,Upload Background dibelakang logo,upload_bglogo,ukuran fix 1550 x 150 pixel
+section,Background Di Footer (Gelapan),,
+upload,Upload Background Untuk Footer,upload_bgfooter,ukuran fix 1550 x 150 pixel
+section,Banner Disebelah Slideshow,,
+text,Link Banner jika diklik,link_bannerslideshow,Paste / ketik link banner disebelah slideshow
+upload,Upload Banner disebelah Slideshow,upload_bannerslideshow,ukuran fix 230 x 258 pixel
+section,Banner Dibawah Banner E-PPID,,
+text,Link Banner jika diklik,link_bannerpusatdata,Paste / ketik link banner disebelah slideshow
+upload,Upload Banner dibawah EPPID,upload_bannerpusatdata,ukuran tidak tahu lebar 250px
+section,Peringatan Bawah Menu,,
+text,Peringatan bawah menu,peringatan,Peringatan teks dibawah menu
+section,Link Social Media,,
+text,Facebook Link,sosmed_facebook,Paste link pages Facebook
+text,Twitter Link,sosmed_twitter,Paste link pages Twitter
+text,Youtube Link,sosmed_youtube,Paste link pages Youtube
+section,Kode Profile Sosmed,,
+textarea,Paste Kode Profile Facebook,profile_facebook,Mudah hanya dengan paste Kode Profile Facebook
+textarea,Paste Kode Widget Twitter,profile_twitter,Mudah hanya dengan paste Kode Widget Twitter
+section,Banner Sebelah Logo,,
+upload,Upload Banner Sebelah Logo,upload_bannerseblogo,ukuran menyesuaikan otomatis yang penting gak kotak tapi memanjang
+text,Linknya jika diklik,link_bannerseblogo,Klik Link banner sebelah logo
+section,Keyboard keystrokes,,
+textarea,Ketik Keyboard keystroks,keyboard_keystrokes,Pisahkan kode dengan  ; . pisahkan informasi key dengan  | 

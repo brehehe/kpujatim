@@ -1,0 +1,45 @@
+"tipe (text;section;upload;color;category,textarea)",judul,kode_unik,text-bantuan
+section,Background untuk Desktop Belakang Website,,
+upload,Upload Background untuk Desktop Belakang Website,upload_bgwebsite,ukuran 1366xterserah dengan gradasi #DDDDDD
+section,Background dibelakang Logo (Gelapan),,
+upload,Upload Background dibelakang logo,upload_bglogo,ukuran fix 1550 x 150 pixel
+section,Banner Disebelah Slideshow,,
+text,Link Banner jika diklik 1,link_bannerslideshow_1,Paste / ketik link banner disebelah slideshow 1
+upload,Upload Banner disebelah Slideshow 1,upload_bannerslideshow_1,ukuran fix 600 x 245 pixel
+text,Link Banner jika diklik 2,link_bannerslideshow_2,Paste / ketik link banner disebelah slideshow 2
+upload,Upload Banner disebelah Slideshow 2,upload_bannerslideshow_2,ukuran fix 600 x 245 pixel
+section,Banner Dibawah Kalender upload banyak,,
+text,Link Banner jika diklik 1,link_bannerpusatdata_1,Paste / ketik link banner dibawah Kalendar 1
+upload,Upload Banner dibawah Kalendar 1,upload_bannerpusatdata_1,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 2,link_bannerpusatdata_2,Paste / ketik link banner dibawah Kalendar 2
+upload,Upload Banner dibawah Kalendar 2,upload_bannerpusatdata_2,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 3,link_bannerpusatdata_3,Paste / ketik link banner dibawah Kalendar 3
+upload,Upload Banner dibawah Kalendar 3,upload_bannerpusatdata_3,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 4,link_bannerpusatdata_4,Paste / ketik link banner dibawah Kalendar 4
+upload,Upload Banner dibawah Kalendar 4,upload_bannerpusatdata_4,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 5,link_bannerpusatdata_5,Paste / ketik link banner dibawah Kalendar 5
+upload,Upload Banner dibawah Kalendar 5,upload_bannerpusatdata_5,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 6,link_bannerpusatdata_6,Paste / ketik link banner dibawah Kalendar 6
+upload,Upload Banner dibawah Kalendar 6,upload_bannerpusatdata_6,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 7,link_bannerpusatdata_7,Paste / ketik link banner dibawah Kalendar 7
+upload,Upload Banner dibawah Kalendar 7,upload_bannerpusatdata_7,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 8,link_bannerpusatdata_8,Paste / ketik link banner dibawah Kalendar 8
+upload,Upload Banner dibawah Kalendar 8,upload_bannerpusatdata_8,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 9,link_bannerpusatdata_9,Paste / ketik link banner dibawah Kalendar 9
+upload,Upload Banner dibawah Kalendar 9,upload_bannerpusatdata_9,ukuran ( terserah intinya sama dan melebar )
+text,Link Banner jika diklik 10,link_bannerpusatdata_10,Paste / ketik link banner dibawah Kalendar 10
+upload,Upload Banner dibawah Kalendar 10,upload_bannerpusatdata_10,ukuran ( terserah intinya sama dan melebar )
+section,Peringatan Bawah Menu,,
+text,Peringatan bawah menu,peringatan,Peringatan teks dibawah menu
+section,Link Social Media,,
+text,Facebook Link,sosmed_facebook,Paste link pages Facebook
+text,Twitter Link,sosmed_twitter,Paste link pages Twitter
+text,Youtube Link,sosmed_youtube,Paste link pages Youtube
+section,Kode Profile Sosmed,,
+textarea,Paste Kode Profile Facebook,profile_facebook,Mudah hanya dengan paste Kode Profile Facebook
+textarea,Paste Kode Widget Twitter,profile_twitter,Mudah hanya dengan paste Kode Widget Twitter
+section,Banner Sebelah Logo,,
+upload,Upload Banner Sebelah Logo,upload_bannerseblogo,ukuran menyesuaikan otomatis yang penting gak kotak tapi memanjang
+text,Linknya jika diklik,link_bannerseblogo,Klik Link banner sebelah logo
+section,Keyboard keystrokes,,
+textarea,Ketik Keyboard keystroks,keyboard_keystrokes,Pisahkan kode dengan  ; . pisahkan informasi key dengan  | 
